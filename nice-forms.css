@@ -1,0 +1,25 @@
+body { width:100%;}
+
+.nice-forms-select{
+    position:relative;
+}
+
+.nice-forms-select-popup{
+    max-height: 300px;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    z-index: 1000;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+}
+
+.nice-forms-select .list-group-item .ssactive, .nice-forms-select .list-group-item:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.nice-forms-select .list-group-item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
